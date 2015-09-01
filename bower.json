@@ -1,0 +1,22 @@
+{
+  "name": "video-freqtimeupdate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nathancahill/video-freqtimeupdate",
+  "authors": [
+    "Nathan Cahill <nathan@nathancahill.com>"
+  ],
+  "description": "Frequent Time Update for HTML5 video elements",
+  "main": "video.freqtimeupdate.js",
+  "keywords": [
+    "html5",
+    "video"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
