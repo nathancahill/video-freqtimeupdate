@@ -45,6 +45,10 @@
 
     // Add listeners to the videos for adding and removing the interval
     for (var i = 0; i < videos.length; i++) {
+        if (!videos[i].paused) {
+            setInterval.call(videos[i]);
+        }
+
         videos[i].addEventListener('play', setInterval);
         videos[i].addEventListener('playing', setInterval);
 
