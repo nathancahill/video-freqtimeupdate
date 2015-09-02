@@ -51,6 +51,7 @@
 
         videos[i].addEventListener('play', setInterval);
         videos[i].addEventListener('playing', setInterval);
+        videos[i].addEventListener('seeked', setInterval);
 
         videos[i].addEventListener('abort', clearInterval);
         videos[i].addEventListener('emptied', clearInterval);
